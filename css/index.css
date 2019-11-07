@@ -250,3 +250,11 @@ header h2 {
   width: 30%;
   margin-bottom: 30px;
 }
+.home .content-pick .destination .btn {
+  background: teal;
+  color: white;
+  font-size: 1.5rem;
+  text-align: center;
+  padding: 5%;
+  border-radius: 10px;
+}
