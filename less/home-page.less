@@ -6,6 +6,7 @@ header {
     h2 {
     margin-top: 3%;
     }//end of h2
+
 }//end of header
 .home {
   .content-section {
@@ -70,3 +71,28 @@ header {
     }//end of destination
   }
 }// home
+
+@media @mobile {
+  html, body {
+    margin: 2%;
+  }
+  header {
+    width: 100%;
+    margin: 0;
+    .navbar {
+      display: flex;
+      flex-direction: column;
+      .links {
+        text-align: center;
+        display: flex;
+        justify-content: space-evenly;
+        width: 100%;
+        padding-bottom: 3%;
+      }//end of links
+    }//end of nav bar
+  }//end of header
+  .content-section {
+    display: flex;
+    flex-direction: column;
+  }
+}//end of mobile query

@@ -258,3 +258,28 @@ header h2 {
   padding: 5%;
   border-radius: 10px;
 }
+@media (max-width: 500px) {
+  html,
+  body {
+    margin: 2%;
+  }
+  header {
+    width: 100%;
+    margin: 0;
+  }
+  header .navbar {
+    display: flex;
+    flex-direction: column;
+  }
+  header .navbar .links {
+    text-align: center;
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+    padding-bottom: 3%;
+  }
+  .content-section {
+    display: flex;
+    flex-direction: column;
+  }
+}
