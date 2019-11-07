@@ -168,30 +168,21 @@ img {
   width: 100%;
   margin: 0 auto;
 }
-header {
-  margin: 30px 15% 30px 15%;
-  display: flex-column;
-  justify-content: center;
-  border-bottom: 2px dashed grey;
-}
-header .navbar {
+.navbar {
   display: flex;
   align-items: center;
   justify-content: center;
   justify-content: space-between;
   border-bottom: 2px dashed grey;
 }
-header .navbar .links {
+.navbar .links {
   width: 48%;
   display: flex;
   justify-content: space-evenly;
 }
-header .navbar .links a {
+.navbar .links a {
   color: #212529;
   font-size: 2rem;
-}
-header h2 {
-  margin-top: 3%;
 }
 .footer {
   width: 100%;
@@ -203,6 +194,15 @@ header h2 {
   color: #212529;
   font-size: 1.6rem;
   padding: 20px;
+}
+header {
+  margin: 30px 15% 30px 15%;
+  display: flex-column;
+  justify-content: center;
+  border-bottom: 2px dashed grey;
+}
+header h2 {
+  margin-top: 3%;
 }
 .home .content-section {
   margin: 30px 0;
