@@ -168,6 +168,31 @@ img {
   width: 100%;
   margin: 0 auto;
 }
+header {
+  margin: 30px 15% 30px 15%;
+  display: flex-column;
+  justify-content: center;
+  border-bottom: 2px dashed grey;
+}
+header .navbar {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  justify-content: space-between;
+  border-bottom: 2px dashed grey;
+}
+header .navbar .links {
+  width: 48%;
+  display: flex;
+  justify-content: space-evenly;
+}
+header .navbar .links a {
+  color: #212529;
+  font-size: 2rem;
+}
+header h2 {
+  margin-top: 3%;
+}
 .footer {
   width: 100%;
   border-top: 2px dashed silver;
