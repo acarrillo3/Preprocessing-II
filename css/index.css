@@ -262,6 +262,7 @@ header h2 {
   html,
   body {
     margin: 2%;
+    padding: 0%;
   }
   header {
     width: 100%;
@@ -279,7 +280,10 @@ header h2 {
     padding-bottom: 3%;
   }
   .content-section {
-    display: flex;
     flex-direction: column;
+    width: 100%;
+  }
+  p {
+    width: 100%;
   }
 }
