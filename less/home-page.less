@@ -96,8 +96,14 @@ header {
   .content-section {
     flex-direction: column;
     width: 100%;
+    border: 2px solid red;
+  
+    .text-content, .img-content, img {
+      border: orange solid 2px;
+      width: 100% !important;
+    }
   }
-  p {
-    width: 100%;
+  .inverse-content{
+    flex-direction: column-reverse;
   }
 }//end of mobile query
