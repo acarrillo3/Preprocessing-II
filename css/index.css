@@ -297,4 +297,8 @@ header h2 {
   .content-pick {
     flex-direction: column;
   }
+  .content-pick .destination {
+    width: 100% !important;
+    padding: 5%;
+  }
 }
