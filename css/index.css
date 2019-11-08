@@ -282,15 +282,19 @@ header h2 {
   .content-section {
     flex-direction: column;
     width: 100%;
-    border: 2px solid red;
   }
   .content-section .text-content,
   .content-section .img-content,
   .content-section img {
-    border: orange solid 2px;
     width: 100% !important;
   }
   .inverse-content {
     flex-direction: column-reverse;
+  }
+  .content-destination {
+    width: 100% !important;
+  }
+  .content-pick {
+    flex-direction: column;
   }
 }
