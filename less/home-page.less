@@ -1,5 +1,14 @@
-.home {
+header {
+  margin: 30px 15% 30px 15%;
+  display: flex-column;
+  justify-content: center;
+  border-bottom: 2px dashed grey;
+    h2 {
+    margin-top: 3%;
+    }//end of h2
 
+}//end of header
+.home {
   .content-section {
     margin: 30px 0;
     display: flex;
@@ -56,6 +65,54 @@
     .destination {
       width: 30%;
       margin-bottom: 30px;
-    }
+      .btn{
+        .signup();
+      }
+    }//end of destination
   }
 }// home
+
+@media @mobile {
+  html, body {
+    margin: 2%;
+    padding:0%;
+  }
+  header {
+    width: 100%;
+    margin: 0;
+    .navbar {
+      display: flex;
+      flex-direction: column;
+      .links {
+        text-align: center;
+        display: flex;
+        justify-content: space-evenly;
+        width: 100%;
+        padding-bottom: 3%;
+      }//end of links
+    }//end of nav bar
+  }//end of header
+//lets go section 
+  .content-section {
+    flex-direction: column;
+    width: 100%;
+  
+    .text-content, .img-content, img {
+      width: 100% !important;
+    }//end of the above
+  }//end of content section
+  .inverse-content{
+    flex-direction: column-reverse;
+  }
+  .content-destination{
+    width: 100% !important;
+  }
+  .content-pick {
+    flex-direction: column;
+    .destination {
+      width: 100% !important;
+      padding:5%;
+    }//end of destination
+  }//end of content-pick
+
+}//end of mobile query
